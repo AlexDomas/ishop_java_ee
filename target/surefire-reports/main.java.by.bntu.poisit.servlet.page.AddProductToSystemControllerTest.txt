@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.476 sec <<< FAILURE! - in main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest
+testDoPostWhenSetCorrectParametersProductThenCallProductServiceMethodAddProductToSystem(main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest.testDoPostWhenSetCorrectParametersProductThenCallProductServiceMethodAddProductToSystem(AddProductToSystemControllerTest.java:79)
+
+whenCallDoGetThenControllerReturnPageUrlAddProduct(main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest.whenCallDoGetThenControllerReturnPageUrlAddProduct(AddProductToSystemControllerTest.java:65)
+
+testDoPostWhenSetIncorrectParameterProductThenCallForwardToPage(main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.AddProductToSystemControllerTest.testDoPostWhenSetIncorrectParameterProductThenCallForwardToPage(AddProductToSystemControllerTest.java:103)
+

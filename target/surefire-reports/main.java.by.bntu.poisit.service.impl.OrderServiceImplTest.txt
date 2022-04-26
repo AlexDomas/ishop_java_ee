@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.service.impl.OrderServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 1.639 sec <<< FAILURE! - in main.java.by.bntu.poisit.service.impl.OrderServiceImplTest
+testCallListMyOrdersThenResultIsNotNull(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallAuthentificateUserWithGetOrderServiceThenFindUserInListOfUsers(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallSerializeShoppingCartThenResultIsSerializeString(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testAddProductToShoppingCartFromGetOrderServiceThenProductListContainsProduct(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallMakeOrderThenResultIsListOrdersContainsIdMakeOrder(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testFindIdFromUserThenResultUserIDEqualsExpUserID(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallDeserializeShoppingCartThenResultIsShoppingCartNotEmpty(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCountMyOrdersThenResultIsCorrectCountOfOrders(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallFindOrderByIdThenCurrentIdIsCorrect(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+
+testCallListAllUsersThenResultListOfUsersIsNotNull(main.java.by.bntu.poisit.service.impl.OrderServiceImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.service.impl.OrderServiceImplTest.<init>(OrderServiceImplTest.java:64)
+

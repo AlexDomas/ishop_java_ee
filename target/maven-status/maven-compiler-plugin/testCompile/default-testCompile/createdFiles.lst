@@ -1,0 +1,14 @@
+main\java\by\bntu\poisit\service\impl\ProductServiceImplTest.class
+main\java\by\bntu\poisit\util\InputIdUtilsTest.class
+main\java\by\bntu\poisit\service\impl\ServiceManagerTest.class
+main\java\by\bntu\poisit\servlet\page\SearchControllerTest.class
+main\java\by\bntu\poisit\servlet\page\DeleteProductFromSystemTest.class
+main\java\by\bntu\poisit\util\InputProductUtilsTest.class
+SearchTestTest.class
+main\java\by\bntu\poisit\servlet\page\MyOrderControllerTest.class
+main\java\by\bntu\poisit\servlet\page\UserInfoControllerTest.class
+main\java\by\bntu\poisit\servlet\page\AddProductToSystemControllerTest.class
+main\java\by\bntu\poisit\servlet\page\AboutUsControllerTest.class
+main\java\by\bntu\poisit\model\ShoppingCartTest.class
+main\java\by\bntu\poisit\service\impl\OrderServiceImplTest.class
+main\java\by\bntu\poisit\servlet\page\AllProductsListControllerTest.class

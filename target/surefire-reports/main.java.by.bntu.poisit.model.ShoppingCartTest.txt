@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.model.ShoppingCartTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.959 sec <<< FAILURE! - in main.java.by.bntu.poisit.model.ShoppingCartTest
+testCallAddProductToShoppingCartThenResultIsCorrectAddedAndListOfProductsNotNull(main.java.by.bntu.poisit.model.ShoppingCartTest)  Time elapsed: 0.013 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+
+testCallRemoveProductWhenShoppingCartItemIsPresentThenResultIsCallRemoveItem(main.java.by.bntu.poisit.model.ShoppingCartTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+
+testCallAddProductToShoppingCartThenResultSetCountShoppinCartItemIsTrueAndListProductsNotNull(main.java.by.bntu.poisit.model.ShoppingCartTest)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+
+testCallRemoveProductWhenShoppingCartItemIsPresentThenResultListContainsIdProduct(main.java.by.bntu.poisit.model.ShoppingCartTest)  Time elapsed: 0 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy class main.java.by.bntu.poisit.model.ShoppingCart
+Mockito cannot mock/spy because :
+ - final class
+	at main.java.by.bntu.poisit.model.ShoppingCartTest.<init>(ShoppingCartTest.java:38)
+

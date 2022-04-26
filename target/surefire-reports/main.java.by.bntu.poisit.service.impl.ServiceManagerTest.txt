@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.service.impl.ServiceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in main.java.by.bntu.poisit.service.impl.ServiceManagerTest
+testGetSocialService(main.java.by.bntu.poisit.service.impl.ServiceManagerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ServiceManagerTest.testGetSocialService(ServiceManagerTest.java:48)
+
+testGetOrderService(main.java.by.bntu.poisit.service.impl.ServiceManagerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ServiceManagerTest.testGetOrderService(ServiceManagerTest.java:38)
+
+testGetApplicationProperty(main.java.by.bntu.poisit.service.impl.ServiceManagerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ServiceManagerTest.testGetApplicationProperty(ServiceManagerTest.java:59)
+

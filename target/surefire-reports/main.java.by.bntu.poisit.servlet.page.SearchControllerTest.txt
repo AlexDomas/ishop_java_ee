@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.servlet.page.SearchControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in main.java.by.bntu.poisit.servlet.page.SearchControllerTest
+testDoGetCallGetProductServiceMethodThenResultIsTrue(main.java.by.bntu.poisit.servlet.page.SearchControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class main.java.by.bntu.poisit.servlet.AbstractController
+
+testDoGetAfterGetProductServiceCallForwardToPageThenResultIsSearchResultPage(main.java.by.bntu.poisit.servlet.page.SearchControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class main.java.by.bntu.poisit.servlet.page.SearchControllerTest
+
+testDoGetCallGetProductServiceMethodCountProductsBySearcherFormThenResultIsNotNull(main.java.by.bntu.poisit.servlet.page.SearchControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class main.java.by.bntu.poisit.servlet.page.SearchControllerTest
+

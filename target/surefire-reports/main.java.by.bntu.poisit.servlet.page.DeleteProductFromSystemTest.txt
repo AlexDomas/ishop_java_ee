@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest
+testDoPostWithIncorrectIdProductParameterThenCallOnlyForwardToPageDeleteProduct(main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest.<init>(DeleteProductFromSystemTest.java:46)
+
+testDoPostWithCorrectIdProductParameterThenCallGetProductServiceMethodDeleteProductFromSystem(main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.DeleteProductFromSystemTest.<init>(DeleteProductFromSystemTest.java:46)
+

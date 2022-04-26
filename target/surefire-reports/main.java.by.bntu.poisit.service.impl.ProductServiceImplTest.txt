@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.service.impl.ProductServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.094 sec <<< FAILURE! - in main.java.by.bntu.poisit.service.impl.ProductServiceImplTest
+testCallSelectIdFromNotExistNameOfCategoryThenNotFindIdCategory(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallSelectIdFromNotExistNameOfCategoryThenNotFindIdCategory(ProductServiceImplTest.java:72)
+
+testCallListAllCategoriesThenListOfCategoriesIsNotNull(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllCategoriesThenListOfCategoriesIsNotNull(ProductServiceImplTest.java:110)
+
+testCallListAllProducersThenListOfProducersIsNotNull(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllProducersThenListOfProducersIsNotNull(ProductServiceImplTest.java:117)
+
+testCallListAllProductsThenResultIsNull(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllProductsThenResultIsNull(ProductServiceImplTest.java:55)
+
+testCallCountProductsByCategoryThenCountIsCorrect(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallCountProductsByCategoryThenCountIsCorrect(ProductServiceImplTest.java:132)
+
+testCallListAllProductsThenResultIsNotNull(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.004 sec  <<< ERROR!
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+
+Invalid use of argument matchers!
+0 matchers expected, 2 recorded:
+-> at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllProductsThenResultIsNotNull(ProductServiceImplTest.java:43)
+-> at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllProductsThenResultIsNotNull(ProductServiceImplTest.java:44)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListAllProductsThenResultIsNotNull(ProductServiceImplTest.java:45)
+
+testCallCountAllProductsThenCountIsCorrect(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallCountAllProductsThenCountIsCorrect(ProductServiceImplTest.java:124)
+
+testCallSelectIdFromExistNameOfCategoryThenFindIdCategory(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallSelectIdFromExistNameOfCategoryThenFindIdCategory(ProductServiceImplTest.java:63)
+
+testCallListProductsByCategoryThenListCategoriesIsPresentInSystem(main.java.by.bntu.poisit.service.impl.ProductServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+
+Invalid use of argument matchers!
+0 matchers expected, 2 recorded:
+-> at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListProductsByCategoryThenListCategoriesIsPresentInSystem(ProductServiceImplTest.java:97)
+-> at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListProductsByCategoryThenListCategoriesIsPresentInSystem(ProductServiceImplTest.java:98)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
+	at main.java.by.bntu.poisit.service.impl.ProductServiceImplTest.testCallListProductsByCategoryThenListCategoriesIsPresentInSystem(ProductServiceImplTest.java:100)
+

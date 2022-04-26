@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest
+testDoGetOrderServiceCountMyOrdersThenOrderCountIsNotNull(main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest.<init>(MyOrderControllerTest.java:41)
+
+testDoGetToCallGetOrderServiceMethodsOrdersThenForwardToPageMyOrders(main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest.<init>(MyOrderControllerTest.java:41)
+
+testDoGetOrderServiceListMyOrdersThenListOrdersCountIsNotNull(main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: main.java.by.bntu.poisit.servlet.AbstractController
+	at main.java.by.bntu.poisit.servlet.page.MyOrderControllerTest.<init>(MyOrderControllerTest.java:41)
+

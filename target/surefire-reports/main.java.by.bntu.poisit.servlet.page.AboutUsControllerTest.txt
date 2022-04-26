@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: main.java.by.bntu.poisit.servlet.page.AboutUsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in main.java.by.bntu.poisit.servlet.page.AboutUsControllerTest
+whenCallDoGetThenServletReturnPageUrlAboutUs(main.java.by.bntu.poisit.servlet.page.AboutUsControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at main.java.by.bntu.poisit.servlet.page.AboutUsControllerTest.whenCallDoGetThenServletReturnPageUrlAboutUs(AboutUsControllerTest.java:20)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name javax.servlet.LocalStrings, locale en_US
+	at main.java.by.bntu.poisit.servlet.page.AboutUsControllerTest.whenCallDoGetThenServletReturnPageUrlAboutUs(AboutUsControllerTest.java:20)
+

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width:100%; height:100%; overflow-x:hidden
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: 'Kaushan Script', cursive;
+    position: absolute;
+    top: 0;
+    color: white;
+    
+}
+
+
+.text-info{
+    font-size: 26px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 200px;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+.about-section {
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    position:relative;
+}
+
+.img-about{
+    
+    object-fit: cover;
+    width: 1500px;
+    height: 1000px;
+}
+
+
+

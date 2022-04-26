@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: SearchTestTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.115 sec <<< FAILURE! - in SearchTestTest
+searchTest(SearchTestTest)  Time elapsed: 0.115 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must be a regular file: D:\NetBeansProjects\ishop_version_2.0
+	at SearchTestTest.setUp(SearchTestTest.java:32)
+
+searchTest(SearchTestTest)  Time elapsed: 0.115 sec  <<< ERROR!
+java.lang.NullPointerException
+	at SearchTestTest.tearDown(SearchTestTest.java:38)
+
